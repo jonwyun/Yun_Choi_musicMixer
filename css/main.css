@@ -1,0 +1,25 @@
+/* 
+Index
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+    5. 
+    6. 
+    7. Contact Us
+    8. Footer
+
+*/
+
+/* 1. General Styles */
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 1200px;
+}
+
+/* 2. Grid */
