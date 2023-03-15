@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 294.68 141.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #ecebea;
+      }
+
+      .cls-3 {
+        fill: #bebfc3;
+      }
+
+      .cls-4 {
+        fill: #ccc;
+      }
+
+      .cls-5 {
+        fill: #d5d4d3;
+      }
+    </style>
+  </defs>
+  <g id="ambulance-gray">
+    <path class="cls-2" d="m0,82.17v36.01s101.8,0,101.8,0V25.01s-42.32-.03-42.32-.03c-6.73,0-12.53,4.71-13.89,11.29l-6.52,27.9-29.01,6.08c-1.45.24-2.81.74-4.02,1.45-1.32.76-2.48,1.77-3.42,2.95C.97,76.73,0,79.35,0,82.17Z"/>
+    <path class="cls-3" d="m93.23,64.73V29.68s-30.24-.02-30.24-.02c-4.47,0-8.38,3.17-9.3,7.54l-6.45,27.53h45.98Z"/>
+    <path class="cls-5" d="m36.01,118.18h52.22c-.8-13.72-12.18-24.6-26.11-24.6s-25.31,10.88-26.11,24.6Z"/>
+    <rect class="cls-1" x="63.88" y="20.89" width="27.4" height="4.34" transform="translate(155.16 46.11) rotate(-180)"/>
+    <path class="cls-4" d="m65.41,7.59h24.34v1.14c0,6.72-5.45,12.17-12.17,12.17h0c-6.72,0-12.17-5.45-12.17-12.17v-1.14h0Z" transform="translate(155.16 28.5) rotate(-180)"/>
+    <path class="cls-3" d="m74.23,7.59h5.79c-4.88,0-8.83,3.95-8.83,8.83v4.48h-5.79v-4.48c0-4.88,3.95-8.83,8.83-8.83Z"/>
+    <rect class="cls-2" x="101.8" y="0" width="192.87" height="118.18"/>
+    <polygon class="cls-4" points="105.46 91.8 105.46 78.79 170.83 78.79 170.83 78.79 170.83 78.79 294.68 78.79 294.68 91.8 105.46 91.8"/>
+    <rect class="cls-5" x="101.8" y="0" width="3.66" height="118.18"/>
+    <rect class="cls-4" x="101.8" y="78.79" width="3.66" height="13.01"/>
+    <g>
+      <circle class="cls-4" cx="62.12" cy="119.74" r="21.86"/>
+      <circle class="cls-1" cx="62.12" cy="119.74" r="13.11" transform="translate(-66.47 79) rotate(-45)"/>
+      <circle class="cls-4" cx="62.12" cy="119.74" r="8.2" transform="translate(-14.16 8.49) rotate(-7.02)"/>
+    </g>
+    <path class="cls-5" d="m212.5,118.18h52.22c-.8-13.72-12.18-24.6-26.11-24.6-13.93,0-25.31,10.88-26.11,24.6Z"/>
+    <g>
+      <circle class="cls-3" cx="238.61" cy="119.74" r="21.86"/>
+      <circle class="cls-1" cx="238.61" cy="119.74" r="13.11" transform="translate(-14.78 203.79) rotate(-45)"/>
+      <circle class="cls-3" cx="238.61" cy="119.74" r="8.2"/>
+    </g>
+    <rect class="cls-4" x="284.42" y="3.65" width="6.25" height="6.25" transform="translate(575.09 13.54) rotate(-180)"/>
+    <rect class="cls-4" x="275.9" y="3.65" width="6.25" height="6.25" transform="translate(558.04 13.54) rotate(-180)"/>
+    <rect class="cls-4" x="118.35" y="3.65" width="6.25" height="6.25" transform="translate(242.95 13.54) rotate(-180)"/>
+    <rect class="cls-4" x="109.82" y="3.65" width="6.25" height="6.25" transform="translate(225.9 13.54) rotate(-180)"/>
+    <rect class="cls-3" x="130.72" y="27.94" width="36.09" height="36.09" transform="translate(297.52 91.98) rotate(-180)"/>
+    <path class="cls-4" d="m242.23,43.21c0,11.11,9.02,20.13,20.13,20.13,11.12,0,20.13-9.02,20.13-20.13s-9.01-20.13-20.13-20.13c-11.11,0-20.13,9.01-20.13,20.13Zm7.18-4.21h8.74s0-8.74,0-8.74h8.43v8.74s8.74,0,8.74,0v8.43h-8.74s0,8.74,0,8.74h-8.43v-8.74s-8.74,0-8.74,0v-8.43Z"/>
+  </g>
+</svg>
