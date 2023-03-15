@@ -18,8 +18,61 @@ Index
     display: none;
 }
 
-.container {
-    width: 1200px;
+body {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* 2. Grid */
+
+.full-width-grid-con {
+    display: grid; 
+    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+
+.grid-con { 
+    display: grid;
+    grid-template-columns: repeat(11, 89px);
+    grid-column-gap: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+
+ /* 3. Body */
+
+ #hero img {
+    grid-column: 1/-1;
+    grid-row: 1/1;
+    justify-self: center;
+    opacity: 30%;
+ }
+ 
+ #hero .grid-con {
+    grid-column: 1/-1;
+    grid-row: 1/5;
+ }
+
+ #title {
+    grid-column: 1/-1;
+    grid-row: 1/1;
+    text-align: center;
+    align-self: end;
+    font-size: 120px;
+    font-weight: bolder;
+    font-style: italic;
+    color: orangered;
+    text-shadow: 1px 1px 2px #707070;
+ }
+
+ #subtitle {
+    grid-column: 1/-1;
+    grid-row: 2/2;
+    text-align: center;
+    align-self: start;
+    font-size: 80px;
+    font-weight: bolder;
+    font-style: italic;
+    color: orangered;
+    text-shadow: 1px 1px 2px #707070;
+ }
