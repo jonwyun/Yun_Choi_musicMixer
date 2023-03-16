@@ -113,14 +113,12 @@ a {
     padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: inset 0px -120px 0px #94a833;
-}
-
-#play a {
     color: #ffffff;
     letter-spacing: 5px;
     font-size: 40px;
     font-weight: bolder;
     font-style: italic;
+    text-align: center;
 }
 
 /* 4. play - body */
