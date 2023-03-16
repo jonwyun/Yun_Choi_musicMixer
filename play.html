@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>On-the-Road Music Mixer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div id="hero-play" class="full-width-grid-con">
+        <img src="images/bg.svg" alt="road background" id="hero-main-play">
+        <div class="grid-con">
+            <div id="logo">
+                <img src="images/logo.svg" alt="logo">
+            </div>
+            <div id="play-button">
+                <img src="images/play.svg" alt="play button">
+            </div>
+            <div id="stop-button">
+                <img src="images/stop.svg" alt="stop button">
+            </div>
+            <div id="reset-button">
+                <img src="images/reset.svg" alt="reset button">
+            </div>
+
+            <div id="drop-1"></div>
+            <div id="drop-2"></div>
+            <div id="drop-3"></div>
+        </div>
+    </div>
+    <div class="grid-con" id="drag-items">
+        <div id="drag-1">
+            <img src="images/ambulence.svg" alt="ambulence">
+        </div>
+        <div id="drag-2">
+            <img src="images/school-bus.svg" alt="school bus">
+        </div>
+        <div id="drag-3">
+            <img src="images/sports-car.svg" alt="sports car">
+        </div>
+    </div>
+  
+    <script src="js/main.js"></script>
 </body>
 </html>

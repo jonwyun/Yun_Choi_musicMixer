@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 251.82 74.67">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-2 {
+        fill: #dd5636;
+        font-size: 27px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-4 {
+        font-family: Ubuntu-BoldItalic, Ubuntu;
+        font-style: italic;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #e80728;
+        font-size: 41px;
+      }
+
+      .cls-7 {
+        letter-spacing: .03em;
+      }
+    </style>
+  </defs>
+  <g id="logo">
+    <text class="cls-4" transform="translate(3.29 34.71)"><tspan class="cls-6"><tspan x="0" y="0">O</tspan><tspan class="cls-7" x="31.04" y="0">n</tspan><tspan class="cls-5" x="55.43" y="0">-</tspan><tspan x="69.9" y="0">th</tspan><tspan class="cls-7" x="110.12" y="0">e</tspan><tspan x="133" y="0">-</tspan><tspan class="cls-1" x="147.06" y="0">R</tspan><tspan x="172.32" y="0">oad</tspan></tspan><tspan class="cls-2"><tspan x="46.73" y="34">Music Mi</tspan><tspan class="cls-3" x="157.59" y="34">x</tspan><tspan x="171.61" y="34">er</tspan></tspan></text>
+  </g>
+</svg>
