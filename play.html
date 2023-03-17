@@ -19,32 +19,29 @@
             <div id="logo">
                 <img src="images/logo.svg" alt="logo">
             </div>
-            <div id="play-button">
+            <button id="play-button">
                 <img src="images/play.svg" alt="play button">
-            </div>
-            <div id="stop-button">
+            </button>
+            <button id="stop-button">
                 <img src="images/stop.svg" alt="stop button">
-            </div>
-            <div id="reset-button">
+            </button>
+            <button id="reset-button">
                 <img src="images/reset.svg" alt="reset button">
-            </div>
+            </button>
 
-            <div id="drop-1"></div>
-            <div id="drop-2"></div>
-            <div id="drop-3"></div>
+            <div class="drop-zone" id="drop-1"></div>
+            <div class="drop-zone" id="drop-2"></div>
+            <div class="drop-zone" id="drop-3"></div>
         </div>
     </div>
-    <div class="grid-con" id="drag-items">
-        <div id="drag-1">
-            <img src="images/ambulence.svg" alt="ambulence">
-        </div>
-        <div id="drag-2">
-            <img src="images/school-bus.svg" alt="school bus">
-        </div>
-        <div id="drag-3">
-            <img src="images/sports-car.svg" alt="sports car">
+    <div class="drag-items" id="mixer-trigger-container">
+        <div class="mixer-trigger" draggable="true" id="image-home" >
+          <img data-container="image-home" src="images/ambulence.svg" alt="ambulence" />
+          <img data-container="image-home" src="images/school-bus.svg" alt="school bus" />
+          <img data-container="image-home" src="images/sports-car.svg" alt="sports car" />
         </div>
     </div>
+      
   
     <script src="js/main.js"></script>
 </body>
