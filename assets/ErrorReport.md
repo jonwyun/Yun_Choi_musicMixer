@@ -1,3 +1,5 @@
+Error 1. My anchor tag doesn't work:
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,11 +32,15 @@
                     <li>3. Then, music will start.</li>
                 </ol>
             </div>
+
+            <a href="play.html" id="play">PLAY</a>
+
         </section>
-    </div>
-    <div class="grid-con" id="play-div">
-        <a href="play.html" id="play">PLAY</a>
     </div>
     
 </body>
 </html>
+
+==> Solution 1. Get the anchor tag out of 'hero' div tag. Then it works, but don't know why.
+
+Error 2. 
