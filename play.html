@@ -22,8 +22,8 @@
             <button id="play-button">
                 <img src="images/play.svg" alt="play button">
             </button>
-            <button id="stop-button">
-                <img src="images/stop.svg" alt="stop button">
+            <button id="pause-button">
+                <img src="images/stop.svg" alt="pause button">
             </button>
             <button id="reset-button">
                 <img src="images/reset.svg" alt="reset button">
@@ -36,13 +36,16 @@
     </div>
     <div class="drag-items" id="mixer-trigger-container">
         <div class="mixer-trigger" draggable="true" id="image-home" >
-          <img data-container="image-home" src="images/ambulence.svg" alt="ambulence" />
-          <img data-container="image-home" src="images/school-bus.svg" alt="school bus" />
-          <img data-container="image-home" src="images/sports-car.svg" alt="sports car" />
+          <img class="key" data-key="1" data-container="image-home" src="images/ambulence.svg" alt="ambulence" />
+          <img class="key" data-key="2" data-container="image-home" src="images/school-bus.svg" alt="school bus" />
+          <img class="key" data-key="3" data-container="image-home" src="images/sports-car.svg" alt="sports car" />
         </div>
     </div>
+
+    <audio data-key="2" src="audio/schoolbus.wav" loop></audio>
+    <audio data-key="1" src="audio/ambulence.wav" loop></audio>
+    <audio data-key="3" src="audio/sports-car.wav" loop></audio>
       
-  
     <script src="js/main.js"></script>
 </body>
 </html>

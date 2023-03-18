@@ -148,7 +148,7 @@ a {
    cursor: pointer;
 }
 
-#stop-button {
+#pause-button {
    grid-column: 10/11;
    width: 61px;
    height: 61px;
