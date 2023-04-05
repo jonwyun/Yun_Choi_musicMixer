@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="hero-play" class="full-width-grid-con">
-        <img src="images/bg.svg" alt="road background" id="hero-main-play">
+        <img src="images/bg_play_1920.svg" alt="road background" id="hero-main-play">
         <div class="grid-con">
             <div id="logo">
                 <img src="images/logo.svg" alt="logo">
@@ -32,18 +32,21 @@
             <div class="drop-zone" id="drop-1"></div>
             <div class="drop-zone" id="drop-2"></div>
             <div class="drop-zone" id="drop-3"></div>
-        </div>
-    </div>
-    <div class="drag-items" id="mixer-trigger-container">
-        <div class="mixer-trigger" draggable="true" id="image-home" >
-          <img class="key" data-key="1" data-container="image-home" src="images/ambulence.svg" alt="ambulence" />
-          <img class="key" data-key="2" data-container="image-home" src="images/school-bus.svg" alt="school bus" />
-          <img class="key" data-key="3" data-container="image-home" src="images/sports-car.svg" alt="sports car" />
+
+            <div class="drag-items mixer-trigger image-home" draggable="true" id="car1">
+              <img class="key" data-key="1" data-container="car1" src="images/ambulence.svg" alt="ambulence"/>
+            </div>
+            <div class="drag-items mixer-trigger image-home" draggable="true" id="car2">
+              <img class="key" data-key="2" data-container="car2" src="images/school-bus.svg" alt="school bus"/>
+            </div>
+            <div class="drag-items mixer-trigger image-home" draggable="true" id="car3">
+              <img class="key" data-key="3" data-container="car3" src="images/sports-car.svg" alt="sports car"/>
+            </div>
         </div>
     </div>
 
-    <audio data-key="2" src="audio/schoolbus.wav" loop></audio>
     <audio data-key="1" src="audio/ambulence.wav" loop></audio>
+    <audio data-key="2" src="audio/schoolbus.wav" loop></audio>
     <audio data-key="3" src="audio/sports-car.wav" loop></audio>
       
     <script src="js/main.js"></script>

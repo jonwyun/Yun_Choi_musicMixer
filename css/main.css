@@ -30,18 +30,19 @@ a {
 
 .full-width-grid-con {
     display: grid; 
-    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
-    max-width: 1200px;
+    grid-template-columns: 1fr minmax(0, 1920px) 1fr;
+    width: 1920px;
     margin: 0 auto;  
 }
 
 .grid-con { 
     display: grid;
-    grid-template-columns: repeat(11, 89px);
+    grid-template-columns: repeat(11, 149px);
+    grid-template-rows: 300px 100px 440px 240px;
     grid-column-gap: 16px;
-    padding-left: 30px;
-    padding-right: 30px;
-    max-width: 1200px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 1920px;
     margin: 0 auto;  
 }
 
@@ -57,7 +58,7 @@ a {
  
 #hero .grid-con {
     grid-column: 1/-1;
-    grid-row: 1/5;
+    grid-row: 1/4;
 }
 
 #title {
@@ -70,6 +71,7 @@ a {
     font-style: italic;
     color: red;
     text-shadow: 1px 1px 2px #2d2c2c;
+    z-index: 1;
 }
 
 #subtitle {
@@ -82,10 +84,11 @@ a {
     font-style: italic;
     color: orangered;
     text-shadow: 1px 1px 2px #707070;
+    z-index: 1;
 }
 
 #instruction {
-    grid-column: 4/9;
+    grid-column: 5/8;
     grid-row: 3/3;
     border: solid 1px #707070;
     padding: 20px 20px 20px 55px;
@@ -105,21 +108,25 @@ a {
 }
 
 #play {
-    grid-column: 4/9;
+    grid-column: 5/8;
+    grid-row: 4/4;
+    z-index: 1;
     border-radius: 25px;
     background-color: #94a833;
     align-self: start;
     padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: inset 0px -120px 0px #94a833;
-    color: #ffffff;
     letter-spacing: 5px;
     font-size: 40px;
     font-weight: bolder;
     font-style: italic;
     text-align: center;
     cursor: pointer;
-    margin-left: 60px;
+}
+
+#play a {
+    color: #ffffff;
 }
 
 /* 4. play - body */
@@ -132,34 +139,38 @@ a {
 
 #hero-play .grid-con {
    grid-column: 1/-1;
-   grid-row: 1/3;
+   grid-row: 1/5;
    margin-top: 25px;
 }
 
 #logo {
    grid-column: 1/4;
+   grid-row: 1/1;
 }
 
 #play-button {
    grid-column: 9/10;
-   width: 61px;
-   height: 61px;
+   grid-row: 1/1;
+   width: 80px;
+   height: 80px;
    margin-top: 5px;
    cursor: pointer;
 }
 
 #pause-button {
    grid-column: 10/11;
-   width: 61px;
-   height: 61px;
+   grid-row: 1/1;
+   width: 80px;
+   height: 80px;
    margin-top: 5px;
    cursor: pointer;
 }
 
 #reset-button {
    grid-column: 11/12;
-   width: 89px;
-   height: 61px;
+   grid-row: 1/1;
+   width: 108px;
+   height: 80px;
    cursor: pointer;
 }
 
@@ -168,46 +179,63 @@ button {
     background: none;
 }
 
+.drop-zone {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
 #drop-1 {
    grid-column: 1/4;
-   grid-row: 2/2;
+   grid-row: 3/3;
    border: dashed 2px #393838;
    border-radius: 15px;
-   height: 135px;
-   margin-bottom: 175px;
-   align-self: end;
-   justify-content: end;
+   height: 170px;
+   width: 350px;
 }
 
 #drop-2 {
    grid-column: 5/8;
-   grid-row: 2/2;
+   grid-row: 3/3;
    border: dashed 2px #393838;
    border-radius: 15px;
-   height: 135px;   
-   margin-bottom: 110px;
-   align-self: end;
+   height: 170px; 
+   width: 350px; 
+   margin-top: 200px;
 }
 
 #drop-3 {
    grid-column: 9/12;
-   grid-row: 2/2;
+   grid-row: 3/3;
    border: dashed 2px #393838;
    border-radius: 15px;
-   height: 135px;
-   margin-bottom: 175px;
-   align-self: end;
+   height: 170px;
+   width: 350px;
 }
 
-.mixer-trigger {
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
+#car1 {
+    grid-column: 1/4;
+    grid-row: 4/4;
+    align-self: end;
     cursor: pointer;
 }
 
-.mixer-trigger img {
-    flex: 1 1 1;
-    width: 300px;
-    margin: 50px 50px 0 50px;
+#car2 {
+    grid-column: 5/8;
+    grid-row: 4/4;
+    align-self: end;
+    cursor: pointer;
 }
+
+#car3 {
+    grid-column: 9/12;
+    grid-row: 4/4;
+    align-self: end;
+    cursor: pointer;
+}
+
+.drag-items img {
+    width: 350px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
