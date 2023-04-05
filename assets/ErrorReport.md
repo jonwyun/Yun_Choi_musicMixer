@@ -42,3 +42,4 @@ Error 1. My anchor tag doesn't work:
 </html>
 
 ==> Solution 1. Get the anchor tag out of 'hero' div tag. Then it works, but don't know why.
+==> Solution 2. set z-index: 2; in CSS
